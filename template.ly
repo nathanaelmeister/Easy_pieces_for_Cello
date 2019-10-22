@@ -4,15 +4,14 @@
 #(set-global-staff-size 24)
 
 \header {
-    composer = "Lee, Sebastion"
-    opus = "Op.70"
+    composer = ""
+    opus = ""
 }
 
 celloI = \relative c {
   \clef bass
   \key c \major
   \time 4/4
-
 
 }
 
