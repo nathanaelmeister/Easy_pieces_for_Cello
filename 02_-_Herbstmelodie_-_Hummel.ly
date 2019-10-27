@@ -4,8 +4,8 @@
 #(set-global-staff-size 24)
 
 \header {
-    composer = ""
-    piece = ""
+    composer = "Bertold Hummel"
+    piece = "Herbstmelodie"
     opus = ""
 }
 

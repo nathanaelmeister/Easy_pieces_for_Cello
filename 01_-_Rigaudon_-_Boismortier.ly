@@ -4,17 +4,17 @@
 #(set-global-staff-size 24)
 
 \header {
-    composer = ""
-    piece = ""
+    composer = "Joseph Bodin de Boismortier (1689-1755)"
+    piece = "Rigaudon"
     opus = ""
 }
 
 celloI = \relative c {
   \clef bass
-  \key c \major
-  \time 4/4
+  \key bes \major
+  \time 2/2
 
-  
+  c d e f g
 
 }
 
