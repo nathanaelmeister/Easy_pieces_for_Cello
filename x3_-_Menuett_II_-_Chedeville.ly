@@ -4,8 +4,8 @@
 #(set-global-staff-size 24)
 
 \header {
-    composer = "Esprit Philippe Chédeville (1696 - 1762)"
-    piece = "Cotillon"
+    composer = "Georg Friedrich Händel (1685 - 1759)"
+    piece = "Menuett II"
     opus = ""
 }
 
