@@ -2,7 +2,7 @@
 
 \score {
   \new StaffGroup = "" \with {
-        instrumentName = \markup { \bold \huge { \larger "1." }}
+        instrumentName = \markup { \bold \huge { \number "1." }}
       }
   <<
     \new Staff = "celloI" 
@@ -15,6 +15,6 @@
   >>
   \layout {}
   \header {
-    composer = "Sebastian Lee"
+    composer = ""
   }
 }
