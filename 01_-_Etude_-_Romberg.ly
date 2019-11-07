@@ -1,12 +1,11 @@
 \version "2.18.2"
 
-#(set-default-paper-size "a4")
-#(set-global-staff-size 24)
-
 \score {
+  \new StaffGroup = "" \with {
+        instrumentName = \markup { \bold \huge { \number "1." }}
+      }
   <<
-    \new Staff = "celloI"
-    \with { instrumentName = \markup \huge \bold \number { "1."}}
+    \new Staff = "celloI" 
     \relative c' {
       \clef bass
       \key c \major
@@ -40,8 +39,6 @@
   >>
   \layout {}
   \header {
-    composer = "B. Romberg"
-    piece = ""
-    opus = ""
+    composer = "Sebastian Lee"
   }
 }
