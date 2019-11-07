@@ -3,9 +3,6 @@
 - easy grade.
 - in first position.
 
-typset with: [Lilypond](http://lilypond.org) "2.18.2"  
-also have a look at: [LilyBin](http://lilybin.com)
-
 While this collection is on growing, it is only providing the single pieces as [lilypond](http://lilypond.org) *.ly files.  
 **PDF** and **MIDI** files are going to be added within the finalization of the collection to prevent a boost of the .git repository.  
 If you want to get **PDF** files beforehand you need to install [lilypond](http://lilypond.org) and compile the *.ly files.
@@ -29,7 +26,7 @@ lilypond filename.ly
 for i in *.ly; do lilypond $i;done
 ```
 
-If you want to get **MIDI** files, you need to add it behind the `\layout` blog  
+If you want to get **MIDI** files, you need to add a `\midi {}` blog behind the `\layout` blog  
 within the `\score` blog like this:
  
 ```
@@ -44,4 +41,7 @@ within the `\score` blog like this:
   \midi {}
 }
 ```
+typset with: [Lilypond](http://lilypond.org) "2.18.2"  
+you can try it online on: [LilyBin](http://lilybin.com)
+or get support at the offical IRC on [FreeNode](http://webchat.freenode.net/?channels=lilypond)
 
