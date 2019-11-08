@@ -35,6 +35,6 @@
   >>
   \layout {}
   \header {
-    composer = "B. Romberg"
+    composer = "Bernhard Romberg"
   }
 }
