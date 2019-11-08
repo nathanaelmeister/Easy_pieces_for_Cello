@@ -16,5 +16,6 @@
   \layout {}
   \header {
     composer = ""
+    piece = ""
   }
 }
