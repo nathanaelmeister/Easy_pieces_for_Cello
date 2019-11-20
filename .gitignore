@@ -2,4 +2,4 @@
 *.pdf
 *.png
 *.eps
-_temp/
+_*/
