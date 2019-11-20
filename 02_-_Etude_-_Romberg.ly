@@ -26,7 +26,7 @@
         e g c2    | %10
         d,4 e f g | %11
         e g c2    | %12
-        a2 b c d  | %13
+        a4 b c d  | %13
         b g c g   | %14
         a d c b   | %15
         d2 c      | %16
