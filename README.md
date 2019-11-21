@@ -3,6 +3,9 @@
 - easy grade.
 - in first position.
 
+since the title numbering of the Cello pieces is changing while the collection is growing,
+the `file.ly` number might defer from the `piece-number` that is printed within the score.
+
 ____________________________________________________________________________________________
 
 While this collection is on growing, it is only providing the single pieces as [lilypond](http://lilypond.org) *.ly files.  
