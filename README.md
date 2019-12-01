@@ -35,17 +35,15 @@ If you want to get **MIDI** files, you need to add a `\midi {}` blog behind the 
 within the `\score` blog like this:
  
 ```
-\score {
-  \new StaffGroup = "" \with {
-        instrumentName = \markup { \bold \huge { \larger "1." }}
-      }
-  <<
-    \new Staff = "celloI" \celloI
-  >>
-  \layout {}
-  \midi {}
-}
-```
+The same applies for **MIDI** files.  
+The `\midi {}` blog is now added to the input files.  
+The `midi-instrument` is set to **Cello**
+
+For MIDI playback on a linux system you could use `timidity` among many others.
+
+`timidity {01..15}*.midi`  
+
+would start a playback of all 15 pieces.
 ____________________________________________________________________________________________
 
 typset with: [Lilypond](http://lilypond.org) "2.18.2"  
