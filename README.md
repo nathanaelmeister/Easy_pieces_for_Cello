@@ -34,7 +34,6 @@ for i in *.ly; do lilypond $i;done
 If you want to get **MIDI** files, you need to add a `\midi {}` blog behind the `\layout` blog  
 within the `\score` blog like this:
  
-```
 The same applies for **MIDI** files.  
 The `\midi {}` blog is now added to the input files.  
 The `midi-instrument` is set to **Cello**
