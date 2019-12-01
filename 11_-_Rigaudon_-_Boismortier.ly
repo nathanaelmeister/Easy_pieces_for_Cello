@@ -5,7 +5,7 @@
     instrumentName = \markup { \bold \huge { \number "11." }}
   }
   <<
-    \new Staff = "celloI" 
+    \new Staff = "celloI" \with { midiInstrument = #"cello" } 
     \relative c {
       \clef bass
       \key bes \major
@@ -37,6 +37,7 @@
     }
   >>
   \layout {}
+  \midi {}
   \header {
     composer = "Joseph Bodin de Boismortier"
     piece = "Rigaudon"

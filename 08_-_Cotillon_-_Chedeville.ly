@@ -2,7 +2,7 @@
 
 \score {
   <<
-    \new Staff = "celloI"
+    \new Staff = "celloI" \with { midiInstrument = #"cello" }
 
     \relative c {
       \clef bass
@@ -33,6 +33,7 @@
 
   >>
   \layout {}
+  \midi {}
   \header {
     composer = "Esprit Philippe Chédeville (1696 - 1762)"
     piece = "Cotillon"

@@ -2,7 +2,7 @@
 
 \score {
   <<
-    \new Staff = "celloI"
+    \new Staff = "celloI" \with { midiInstrument = #"cello" }
     \relative c' {
       \clef bass
       \key g \major
@@ -37,6 +37,7 @@
     }
   >>
   \layout {}
+  \midi {}
   \header {
     composer = "Georg Friedrich Händel (1685 - 1759)"
     piece = "Menuett II"
