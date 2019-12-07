@@ -2,6 +2,7 @@
 
 - easy grade.
 - in first position.
+- only first voice
 
 since the title numbering of the Cello pieces is changing while the collection is growing,
 the `file.ly` number might defer from the `piece-number` that is printed within the score.
